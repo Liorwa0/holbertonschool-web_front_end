@@ -10,7 +10,7 @@
 
 html { scroll-behavior: smooth; }
 body { color: var(--text-color); }
-a[href] { color: var(--text-color); }
+a:link { color: var(--text-color); }
 a:visited { font-style: italic; }
 a:hover { text-decoration: underline; }
 a:active { background-color: var(--color-light-grey); }
