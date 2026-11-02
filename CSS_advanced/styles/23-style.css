@@ -200,6 +200,14 @@ ul.row { margin: 0; padding: 0; list-style: none; }
   background-color: var(--color-black);
 }
 
-.footer-address { color: var(--text-color); }
-.social-link { display: block; }
-.social-link svg { fill: var(--text-color); }
+.footer-address {
+  color: var(--text-color);
+}
+
+.social-link {
+  display: block;
+}
+
+.social-link svg {
+  fill: var(--text-color);
+}
