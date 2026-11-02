@@ -10,6 +10,10 @@
 
 html { scroll-behavior: smooth; }
 body { color: var(--text-color); }
+a[href] { color: var(--text-color); }
+a[href]:visited { font-style: italic; }
+a[href]:hover { text-decoration: underline; }
+a[href]:active { background-color: var(--color-light-grey); }
 .visually-hidden { display: none; }
 .card-category, .section-tagline { color: var(--color-primary); }
 
@@ -53,10 +57,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: var(--font-weight-bold); }
 
 body { line-height: var(--line-height-base); }
 
-a[href] { color: var(--text-color); text-decoration: none; }
-a[href]:visited { font-style: italic; }
-a[href]:hover { text-decoration: underline; }
-a[href]:active { background-color: var(--color-light-grey); }
+
 
 :root { --section-header-align: center; }
 .section-header { text-align: var(--section-header-align); }
