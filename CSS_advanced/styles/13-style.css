@@ -11,9 +11,9 @@
 html { scroll-behavior: smooth; }
 body { color: var(--text-color); }
 a[href] { color: var(--text-color); }
-a[href]:visited { font-style: italic; }
-a[href]:hover { text-decoration: underline; }
-a[href]:active { background-color: var(--color-light-grey); }
+a:visited { font-style: italic; }
+a:hover { text-decoration: underline; }
+a:active { background-color: var(--color-light-grey); }
 .visually-hidden { display: none; }
 .card-category, .section-tagline { color: var(--color-primary); }
 
