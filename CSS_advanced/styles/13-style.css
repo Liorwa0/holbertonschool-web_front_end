@@ -11,6 +11,9 @@
 html { scroll-behavior: smooth; }
 body { color: var(--text-color); }
 a[href] { color: var(--text-color); }
+a:visited { font-style: italic; }
+a:hover { text-decoration: underline; }
+a:active { background-color: var(--color-light-grey); }
 .visually-hidden { display: none; }
 .card-category, .section-tagline { color: var(--color-primary); }
 
@@ -54,10 +57,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: var(--font-weight-bold); }
 
 body { line-height: var(--line-height-base); }
 
-a[href] { text-decoration: none; }
-a[href]:visited { font-style: italic; }
-a:hover { text-decoration: underline; }
-a:active { background-color: var(--color-light-grey); }
+a { text-decoration: none; }
 
 
 
