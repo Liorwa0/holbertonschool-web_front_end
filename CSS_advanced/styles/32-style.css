@@ -359,3 +359,6 @@ ul.row { margin: 0; padding: 0; list-style: none; }
 .card-work .card-inner {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
+
+/* Reuse the black Techium mark on dark sections. */
+.header-logo img, .footer img { filter: invert(1); }
